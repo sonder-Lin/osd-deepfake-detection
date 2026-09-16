@@ -1,0 +1,16 @@
+pycache/
+__pycache__/
+*.pth
+*.pyc
+*.ckpt
+.DS_Store
+.env
+venv/omni/
+omni/
+omni
+
+
+results/
+*.npz
+
+data/FaceForensics++/

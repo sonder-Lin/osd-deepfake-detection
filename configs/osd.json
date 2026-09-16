@@ -1,0 +1,17 @@
+{
+  "CLIP_path": "/path/to/clip-vit-large-patch14",
+  "num_experts": 7,
+  "rank_per_expert": 8,
+  "moe_lambda_orth": 0.001,
+  "zero_shot_tau": 0.1,
+  "stage1_base_dir": "outputs/2026-1-15/osd",
+  "experts_map": {
+    "0": "checkpoint-last.pth",
+    "1": "checkpoint-last.pth",
+    "2": "checkpoint-last.pth",
+    "3": "checkpoint-last.pth",
+    "4": "checkpoint-last.pth",
+    "5": "checkpoint-last.pth",
+    "6": "checkpoint-last.pth"
+  }
+}

@@ -1,0 +1,14 @@
+# Normalize line endings to LF on commit
+* text=auto eol=lf
+
+# Shell scripts must use LF
+*.sh text eol=lf
+
+# Python files
+*.py text eol=lf
+
+# Keep binary files as-is
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.pth binary
